@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
 
-    <title>Konami Code Lab</title>
-    <meta name="description" content="Introduction to JavaScript numbers and arithmetic in the Learn.co curriculum">
-    <meta name="author" content="Flatiron School">
+<head>
+  <meta charset="utf-8">
 
-    <!-- Include Mocha's stylesheet to style test results -->
-    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
-  </head>
+  <title>Konami Code Lab</title>
+  <meta name="description" content="Introduction to JavaScript numbers and arithmetic in the Learn.co curriculum">
+  <meta name="author" content="Flatiron School">
 
-  <body>
-    <!-- <div> for Mocha to display test results. -->
-    <div id="mocha"></div>
+  <!-- Include Mocha's stylesheet to style test results -->
+  <link rel="stylesheet" href="node_modules/mocha/mocha.css">
 
-    <!-- Include Mocha and set it up for BDD-style testing. -->
-    <script src="node_modules/mocha/mocha.js"></script>
-    <script>mocha.setup('bdd');</script>
+  <!-- Include Flatiron School's minified test runner to push results to Learn. -->
+  <script defer src="node_modules/learn-browser/learnBrowser.min.js"></script>
 
-    <!-- Include Chai as the matcher library. -->
-    <script src="node_modules/chai/chai.js"></script>
+</head>
 
-    <!-- Include Sinon as the library for spies, stubs, and mocks. -->
-    <script src="node_modules/sinon/pkg/sinon.js"></script>
+<body>
+  <!-- <div> for Mocha to display test results. -->
+  <div id="mocha"></div>
 
-    <!-- Include the student's JavaScript file. -->
-    <script src="konami_code.js"></script>
+  <!-- Include Mocha and set it up for BDD-style testing. -->
+  <script src="node_modules/mocha/mocha.js"></script>
+  <script>mocha.setup('bdd');</script>
 
-    <!-- Include the JavaScript file containing the tests. -->
-    <script src="test/indexTest.js"></script>
+  <!-- Include Chai as the matcher library. -->
+  <script src="node_modules/chai/chai.js"></script>
 
-    <!-- Include Flatiron School's minified test runner to push results to Learn. -->
-    <script src="node_modules/learn-browser/learnBrowser.min.js"></script>
-  </body>
+  <!-- Include Sinon as the library for spies, stubs, and mocks. -->
+  <script src="node_modules/sinon/pkg/sinon.js"></script>
+
+  <!-- Include the student's JavaScript file. -->
+  <script src="konami_code.js"></script>
+
+  <!-- Include the JavaScript file containing the tests. -->
+  <script src="test/indexTest.js"></script>
+</body>
+
 </html>
